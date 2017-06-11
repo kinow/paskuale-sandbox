@@ -1,0 +1,9 @@
+* Test Brill parser
+    - http://dragon.ischool.drexel.edu/api/dragon/nlp/tool/BrillTagger.html
+    - https://en.wikipedia.org/wiki/Brill_tagger
+    - https://gate.ac.uk/sale/tao/splitch6.html#x9-1350006.6
+    - https://stackoverflow.com/a/15983182
+    - https://cs.uwaterloo.ca/~jimmylin/downloads/brill-javadoc/edu/mit/csail/brill/BrillTagger.html
+    - http://sujitpal.blogspot.co.nz/2008/11/ir-math-in-java-rule-based-pos-tagger.html
+    - https://github.com/mark-watson/fasttag_v2
+    - http://alumni.media.mit.edu/~hugo/montytagger/
