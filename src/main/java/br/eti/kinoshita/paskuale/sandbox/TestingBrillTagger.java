@@ -11,7 +11,7 @@ public class TestingBrillTagger {
     public static void main(String[] args) throws Exception {
         List<String> s1 = Arrays.asList("The classes were tough.".split(" "));
         List<String> s2 = Arrays.asList("The teacher was serious about it.".split(" "));
-        List<String> s3 = Arrays.asList("This is not a haiku, so that's it I think.".split(" "));
+        List<String> s3 = Arrays.asList("She could not relax.".split(" "));
 
         @SuppressWarnings("unchecked")
         List<List<String>> sentences = Arrays.asList(s1, s2, s3);
@@ -26,6 +26,7 @@ public class TestingBrillTagger {
             for (String[] a : l) {
                 for (String s : a) {
                     System.out.print(s);
+                    System.out.print(" ");
                 }
                 System.out.println();
             }
